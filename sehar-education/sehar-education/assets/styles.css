@@ -3356,3 +3356,18 @@ button.btn-gold-1 {
     text-align: center;
   }
 }
+
+.mob-menu {
+  display: none;
+}
+
+.mob-menu.active {
+  display: block;
+}
+
+/* Desktop pe always hide */
+@media (min-width: 769px) {
+  .mob-menu {
+    display: none !important;
+  }
+}
